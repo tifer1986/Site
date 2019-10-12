@@ -1,0 +1,32 @@
+form {
+    width: 200px;
+    margin: auto;
+    border: 1px solid rgba(200, 200, 200, 0.7);
+    border-radius: 3mm;
+    padding: 15px;
+}
+
+div:first-child {
+    display: block;
+    margin-top: 0em;
+}
+
+div:last-child {
+    text-align: center;
+}
+
+div {
+    display: block;
+    margin-top: 1em;
+}
+input {
+    width: 94%;
+    height: 20px;
+    border-radius: 1mm;
+    border: 1px solid rgba(155, 155, 155, 0.7);
+    padding: 5px;
+}
+button {
+    padding: 5px 15px 5px 15px;
+    margin: auto;
+}

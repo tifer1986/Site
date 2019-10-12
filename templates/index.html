@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/default.css')}}">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Hello World!</h1>
+    <form action="." method="get">
+        <div>
+            <label for="name">Nome: </label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label for="lastName">Sobrenome: </label>
+            <input type="text" name="lastName" id="lastName">
+        </div>
+        <div>
+            <label for="fone">Telefone: </label>
+            <input type="tel" name="fone" id="fone">
+        </div>
+        <div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </div>
+    </form>
+
+    <h1>{{ dados }}</h1>
+</body>
+</html>
